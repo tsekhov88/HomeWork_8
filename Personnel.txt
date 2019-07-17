@@ -1,0 +1,7 @@
+Написать запрос, который вычислит среднюю заработную плату сотрудников по отделу
+
+SELECT avg(salary) FROM Personnel WHERE id_departmet = 1
+
+SELECT avg(salary) FROM Personnel WHERE id_departmet = 2
+
+SELECT avg(salary) FROM Personnel WHERE id_departmet = 3
